@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Checkout</title>
+    </head>
+
+    <body>
+        
+        <h2>Your order</h2>
+
+        <ul>
+            <li th:each="item: ${cart.items}">
+                <span th:text="${item}">Smelly socks!</span> - <span th:text="${cart.getCount(item)}">4</span>
+            </li>
+        </ul>
+
+        <h2>Ship to</h2>
+
+        <p>Would have a nice form, but not relevant for this assignment :)</p>
+
+    </body>
+</html>

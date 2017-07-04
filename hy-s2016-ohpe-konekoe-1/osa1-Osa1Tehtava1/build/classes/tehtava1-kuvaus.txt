@@ -1,0 +1,35 @@
+Tehtävä 1: Neljän luvun summa
+
+Tee ohjelma, joka lukee käyttäjältä neljä lukua ja tulostaa niiden summan. Voit
+olettaa, että käyttäjä syöttää lukuja (ei merkkijonoja), ja että käyttäjän
+syöttämiä lukuja on aina neljä.
+
+Alla esimerkkitulosteita. Neljä ensimmäistä lukua on aina käyttäjän syöttämiä,
+viides ohjelman laskema summa.
+
+
+Esimerkki 1:
+
+Anna ensimmäinen luku: 1
+Anna toinen luku: 2
+Anna kolmas luku: 3
+Anna neljäs luku: 4
+Syötettyjen lukujen summa on 10
+
+
+Esimerkki 2:
+
+Anna ensimmäinen luku: -33
+Anna toinen luku: 7
+Anna kolmas luku: 23
+Anna neljäs luku: 3
+Syötettyjen lukujen summa on 0
+
+
+Esimerkki 3:
+
+Anna ensimmäinen luku: 7
+Anna toinen luku: 3
+Anna kolmas luku: 30
+Anna neljäs luku: 2
+Syötettyjen lukujen summa on 42

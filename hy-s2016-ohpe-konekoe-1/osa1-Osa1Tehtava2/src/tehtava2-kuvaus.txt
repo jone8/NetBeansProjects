@@ -1,0 +1,42 @@
+Tehtävä 2: Neljällä jaolliset
+
+Tee ohjelma, joka kysyy käyttäjältä lukua. Kun käyttäjä on syöttänyt luvun, 
+ohjelma tulostaa kaikki neljällä jaolliset luvut nollasta lähtien käyttäjän
+syöttämään lukuun asti. Voit olettaa, että käyttäjä syöttää aina luvun (ei 
+merkkijonoa), ja että käyttäjän syöttämä luku on positiivinen.
+
+Alla esimerkkitulosteita. Ensimmäinen luku on aina käyttäjän syöttämä, loput
+ohjelman tulostamia. 
+
+
+Esimerkki 1:
+
+Mihin asti? 6
+0
+4
+
+
+Esimerkki 2:
+
+Mihin asti? 16
+0
+4
+8
+12
+16
+
+
+Esimerkki 3:
+
+Mihin asti? 42
+0
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40

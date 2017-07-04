@@ -1,0 +1,27 @@
+Tehtävä 1: Kahden syötetyn merkkijonon yhteispituus
+
+Tee ohjelma, joka lukee käyttäjältä kaksi merkkijonoa ja tulostaa niiden
+pituuksien summan. 
+
+Alla esimerkkitulosteita. 
+
+
+Esimerkki 1:
+
+Anna ensimmäinen merkkijono: peto
+Anna toinen merkkijono: irti
+Merkkijonojen peto ja irti yhteispituus on 8.
+
+
+Esimerkki 2:
+
+Anna ensimmäinen merkkijono: chili
+Anna toinen merkkijono: palander
+Merkkijonojen chili ja palander yhteispituus on 13.
+
+
+Esimerkki 3:
+
+Anna ensimmäinen merkkijono: tikape
+Anna toinen merkkijono: raportti
+Merkkijonojen tikape ja raportti yhteispituus on 14.

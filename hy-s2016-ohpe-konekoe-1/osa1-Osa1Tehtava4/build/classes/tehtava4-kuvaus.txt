@@ -1,0 +1,37 @@
+Tehtävä 4: Summametodi
+
+Kirjoita metodi summa, joka saa parametrina kaksi lukua ja tulostaa parametrina
+saamiensa lukujen summan. Tulostuksen tulee olla muotoiltu siten, että siinä 
+näkyy parametrina saatujen lukujen arvot sekä summa. Alla tulostusesimerkki:
+
+Lukujen (ensimmainen luku) ja (toinen luku) summa on (lukujen summa)
+
+Tulostuksessa tulee vaihtaa kohta (ensimmäinen luku) ensimmäisenä parametrina 
+saadulla luvulla, kohta (toinen luku) toisena parametrina saadulla luvulla, ja
+kohta (lukujen summa) parametrina saatujen lukujen summalla.
+
+Alla esimerkkejä metodikutsuista.
+
+
+Esimerkki 1:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia summa 'summa(4, 7);', metodin
+tulostus on:
+
+Lukujen 4 ja 7 summa on 11
+
+
+Esimerkki 2:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia summa 'summa(7, 4);', metodin
+tulostus on:
+
+Lukujen 7 ja 4 summa on 11
+
+
+Esimerkki 3:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia summa 'summa(16, 26);', metodin
+tulostus on:
+
+Lukujen 16 ja 26 summa on 42

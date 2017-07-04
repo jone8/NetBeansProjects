@@ -1,0 +1,44 @@
+Tehtävä 3: Mittalaite
+
+Tee ohjelma, joka lukee käyttäjän syöttämiä lukuja kunnes käyttäjän antama luku
+on suurempi kuin 999 tai pienempi kuin -999. Ohjelman tulee pitää kirjaa 
+pienimmästä ja suurimmasta syötetystä luvusta. Jos käyttäjä ei syötä yhtäkään
+välillä [-999, 999] olevaa lukua, ohjelman tulee tulostaa "Ei syötettyjä 
+lukuja.". Jos taas käyttäjä syöttää vähintään yhden välillä [-999, 999] olevan
+luvun, ohjelman tulee kertoa pienin ja suurin käyttäjän syöttämä luku. Huomaa
+että pienin ja suurin luku voivat olla myös samat.
+
+Voit olettaa, että käyttäjä syöttää vain lukuja.
+
+Alla esimerkkitulosteita. Ensimmäinen luku on aina käyttäjän syöttämä, loput
+ohjelman tulostamia. 
+
+
+Esimerkki 1: 
+
+Syötä mittaus: 9999
+
+Ei mittauksia.
+
+
+Esimerkki 2: 
+
+Syötä mittaus: 32
+Syötä mittaus: 8
+Syötä mittaus: 4
+Syötä mittaus: 9999
+
+Pienin mittaus: 4
+Suurin mittaus: 32
+
+
+Esimerkki 3:
+
+Syötä mittaus: -301
+Syötä mittaus: -62
+Syötä mittaus: -1
+Syötä mittaus: -14
+Syötä mittaus: -9999
+
+Pienin mittaus: -301
+Suurin mittaus: -1

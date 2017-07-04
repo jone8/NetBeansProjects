@@ -1,0 +1,33 @@
+Tehtävä 3: Kerran esiintyvä luku
+
+Tee ohjelma joka ensin kysyy käyttäjältä luettavien lukujen lukumäärän ja 
+lukee tämän jälkeen annetun määrän verran lukuja käyttäjältä. Voit olettaa, 
+että vain yksi luku esiintyy vain kerran ja muut toistuvat. Tehtävänäsi on 
+tunnistaa vain kerran annettu luku.
+
+
+Esimerkki 1:
+
+Kuinka monta? 5
+Anna lukuja:
+2
+3
+2
+2
+2
+Tulos: 3
+
+
+Esimerkki 2:
+
+Kuinka monta? 8
+Anna lukuja:
+7
+3
+9
+3
+3
+8
+7
+9
+Tulos: 8

@@ -1,0 +1,4 @@
+frog:sammakko
+uno:yksi
+dos:kaksi
+dog:koira

@@ -1,0 +1,27 @@
+Tehtävä 5: Henkilö
+
+Ohjelmoi luokka Henkilo. Luokan pitää toimia seuraavan esimerkin osoittamalla 
+tavalla:
+
+public static void main(String[] args) {
+  Henkilo pekka = new Henkilo("Pekka M.", "040-123123");
+  System.out.println(pekka);
+  pekka.vaihdaNumeroa("050-333444");
+  System.out.println(pekka);
+}
+
+Tulostuu:
+Pekka M., puh: 040-123123
+Pekka M., puh: 050-333444
+
+Tee siis luokalle
+
+• konstruktori, jolla asetetaan henkilölle nimi ja puhelinnumero
+• metodi vaihdaNumeroa(String uusiNumero), joka muuttaa henkilön puhelinnumeroa
+
+• metodi toString(), joka palauttaa henkilön merkkijonoesityksen (yo. esimerkin
+                     tapaan muotoiltuna)
+
+Tee vielä näiden lisäksi Henkilo-luokalle metodit:
+• getNimi(), joka palauttaa nimen
+• getNumero(), joka palauttaa puhelinnumeron

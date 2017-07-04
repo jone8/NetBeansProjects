@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Shopping spree!</title>
+    </head>
+
+    <body>
+
+        <h2 th:text="${error}"></h2>
+
+        <h2>Items</h2>
+
+        <table>
+            
+            <tr>
+                <th>Item</th>
+                <th>Count</th>
+                <th>Add</th>
+            </tr>
+
+            <tr th:each="item: ${items}">
+                
+                <td th:text="${item}">Smelly socks!</td>
+                <td th:text="${cart.getCount(item)}">Count</td>
+                
+                <td>
+                    <form method="POST" action="/">
+                        <input type="hidden" name="item" th:value="${item}"/>
+                        <input type="submit" value="Add!"/>
+                    </form>
+                </td>
+            </tr>
+            
+        </table>
+
+
+        <p><a th:unless="${cart.empty}" href="/checkout">Checkout!</a></p>
+
+    </body>
+</html>

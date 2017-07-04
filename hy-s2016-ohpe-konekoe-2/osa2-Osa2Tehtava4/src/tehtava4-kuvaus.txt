@@ -1,0 +1,32 @@
+Tehtävä 4: Pilli
+
+Tee luokka Pilli, jolle annetaan konstruktorin parametrina merkkijono. Pillillä
+tulee olla lisäksi metodi "soita", jota kutsuttaessa konstruktorille 
+parametrina annettu merkkijono tulostuu. 
+
+Esimerkki 1:
+
+Pilli eka = new Pilli("Piip!");
+eka.soita();
+eka.soita();
+
+tulostaa:
+
+Piip!
+Piip!
+
+
+Esimerkki 2:
+
+Pilli viulu = new Pilli("bjoing");
+Pilli huilu = new Pilli("hjuing");
+
+viulu.soita();
+huilu.soita();
+viulu.soita();
+
+tulostaa:
+
+bjoing
+hjuing
+bjoing

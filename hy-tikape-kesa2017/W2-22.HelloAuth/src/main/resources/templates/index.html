@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Entering secret pages</title>
+    </head>
+
+    <body>
+
+        <h1>Secret pages authentication</h1>
+
+        <h2 th:text="${error}">Error message if such exists</h2>
+
+        <form action="/" method="POST">
+            <span>Username: </span><br/>
+            <input type="text" name="username"/><br/>
+            <span>Password: </span><br/>
+            <input type="password" name="password"/><br/>
+            <br/>
+            <input type="submit" value="Authenticate!"/>
+        </form>
+
+    </body>
+</html>

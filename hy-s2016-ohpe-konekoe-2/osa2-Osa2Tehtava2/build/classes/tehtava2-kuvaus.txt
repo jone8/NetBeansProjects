@@ -1,0 +1,14 @@
+Tehtävä 2: Merkkijonojen keskipituudet
+
+Toteuta metodi public static double keskipituudet(ArrayList<String> lista), joka
+saa parametrina listan merkkijonoja ja laskee parametrina saadun listan
+sisältämien merkkijonojen keskipituuden ja palauttaa sen. Jos lista on tyhjä,
+metodin tulee palauttaa arvo -1.0
+
+Pääohjelmametodissa on esimerkki, jota voit käyttää metodin testaamiseen kun
+olet saanut sen valmiiksi. Alla esimerkkituloste, joka kuvaa pääohjelmametodin
+tulostuksen kun merkkijonot ovat "never", "gonna", "give", "you" ja "up":
+
+
+Merkkijonojen keskipituus on 3.8
+

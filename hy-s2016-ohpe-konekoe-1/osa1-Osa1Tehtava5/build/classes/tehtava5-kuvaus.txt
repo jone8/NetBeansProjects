@@ -1,0 +1,39 @@
+Tehtävä 5: Suorakulmio
+
+Kirjoita metodi suorakulmio, joka saa parametrina suorakulmion leveyden ja 
+korkeuden, ja tulostaa o-kirjaimista muodostuvan suorakulmion, jonka koko
+määräytyy parametrien arvojen perusteella. Ensimmäinen parametri määrittelee
+suorakulmion leveyden ja toinen suorakulmion korkeuden. 
+
+Alla esimerkkejä metodikutsuista.
+
+
+Esimerkki 1:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia suorakulmio 
+'suorakulmio(1, 2);', metodin tulostus on:
+
+o
+o
+
+
+Esimerkki 2:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia suorakulmio 
+'suorakulmio(3, 6);', metodin tulostus on:
+
+ooo
+ooo
+ooo
+ooo
+ooo
+ooo
+
+
+Esimerkki 3:
+
+Kun pääohjelmasta (main-metodi) kutsutaan metodia suorakulmio 
+'suorakulmio(7, 2);', metodin tulostus on:
+
+ooooooo
+ooooooo
